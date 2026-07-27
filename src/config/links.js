@@ -22,7 +22,7 @@ export const links = [
   {
     title: 'Instagram',
     description: '@klinikkomp.smaknas',
-    url: 'https://instagram.com/klinikkomp.smaknas',
+    url: 'https://www.instagram.com/klinikkomp.smknas/',
     icon: 'instagram',
   },
   {
