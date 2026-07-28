@@ -1,15 +1,3 @@
-// =============================================================
-// DAFTAR LINK
-// Untuk menambah link baru, tinggal copy salah satu object di
-// bawah, paste, lalu ganti isinya. Urutan array = urutan tampil.
-//
-// Properti yang tersedia:
-//   title       -> judul link (wajib)
-//   url         -> alamat tujuan (wajib)
-//   description -> teks kecil di bawah judul (opsional)
-//   icon        -> key ikon dari src/config/icons.js (opsional)
-//   highlight   -> true/false, kartu besar menonjol (opsional)
-// =============================================================
 
 export const links = [
   {
@@ -37,6 +25,12 @@ export const links = [
     url: 'mailto:klinikkompsmaknas@gmail.com',
     icon: 'email',
   },
+  {
+    title: 'Facebook',
+    description: 'klinikkompputer Smknas',
+    url: 'https://www.facebook.com/profile.php?id=61555690631217',
+    icon: 'facebook'
+  }
 
   // 👇 Contoh menambah link baru, tinggal copy blok ini:
   // {

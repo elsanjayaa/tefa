@@ -1,11 +1,4 @@
-// =============================================================
-// DAFTAR IKON
-// Ini adalah "kamus" ikon yang bisa dipakai di links.js atau
-// profile.js lewat properti `icon: 'key-nya'`.
-// Mau nambah ikon baru? tinggal import dari react-icons lalu
-// tambahkan satu baris baru di object ICONS di bawah.
-// Cari ikon lain di: https://react-icons.github.io/react-icons
-// =============================================================
+import { CiFacebook } from "react-icons/ci";
 
 import {
   FaInstagram,
@@ -70,6 +63,7 @@ export const ICONS = {
   camera: LuCamera,
   education: LuGraduationCap,
   link: LuLink, // dipakai sebagai fallback kalau key tidak ditemukan
+  facebook: CiFacebook,
 }
 
 export function getIcon(key) {
